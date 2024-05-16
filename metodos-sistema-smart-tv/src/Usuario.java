@@ -7,6 +7,7 @@ public class Usuario {
         smartTv.volUp();
         smartTv.volDown();
         smartTv.chanelUp();
+        smartTv.chanelUp();
         smartTv.setChanel(10);
 
         System.out.println("A tv está -> " + (smartTv.powerStatus ? "ligada" : "desligada"));
