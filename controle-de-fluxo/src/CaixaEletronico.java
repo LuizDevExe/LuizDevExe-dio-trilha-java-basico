@@ -3,8 +3,11 @@ public class CaixaEletronico {
         double balance = 25.0;
         double withdrawValue = 26.0;
 
-        if ( withdrawValue <  balance)
+        if ( withdrawValue <  balance){
             balance = balance - withdrawValue;
-        System.out.println(balance);
+            System.out.println("Novo Saldo " + balance);
+        } else{
+            System.out.println("Saldo insuficiente");
+        }
     }
 }
